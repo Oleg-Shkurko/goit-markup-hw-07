@@ -8,8 +8,7 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./normalize.css" />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <header class="top-header">
@@ -61,22 +60,16 @@
               <button type="button" class="filter link">Все</button>
             </li>
             <li class="filter-link">
-              <button type="button" class="filter link">
-                Веб-сайты
-              </button>
+              <button type="button" class="filter link">Веб-сайты</button>
             </li>
             <li class="filter-link">
-              <button type="button" class="filter link">
-                Приложения
-              </button>
+              <button type="button" class="filter link">Приложения</button>
             </li>
             <li class="filter-link">
               <button type="button" class="filter link">Дизайн</button>
             </li>
             <li class="filter-link">
-              <button type="button" class="filter link">
-                Маркетинг
-              </button>
+              <button type="button" class="filter link">Маркетинг</button>
             </li>
           </ul>
 
@@ -358,10 +351,17 @@
         <div class="subscription">
           <b>Подпишитесь на рассылку</b>
           <div class="mailing">
-            <p><input type="email" name="login" /></p>
-            <button type="button" class="button">
-              Подписаться
-            </button>
+            <form action="#">
+              <label class="subscription-label">
+                <input
+                  type="email"
+                  class="subscription-input"
+                  name="login"
+                  placeholder="E-mail"
+                />
+              </label>
+            </form>
+            <button type="button" class="button">Подписаться</button>
           </div>
         </div>
       </div>
