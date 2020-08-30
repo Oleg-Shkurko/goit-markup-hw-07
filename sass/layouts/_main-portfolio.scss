@@ -148,6 +148,7 @@
   letter-spacing: 0.03em;
 }
 
-.web-sites:hover .overlay {
+.web-sites:hover .overlay,
+.web-sites:focus .overlay {
   transform: translatey(0);
 }
